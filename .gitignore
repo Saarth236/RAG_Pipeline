@@ -1,0 +1,27 @@
+# Virtual environments
+venv/
+.env
+
+# FAISS & embedding indexes
+*.faiss
+*.index
+
+# Cached Python files
+__pycache__/
+*.pyc
+
+# Data
+*.csv
+*.zip
+*.tsv
+*.xls*
+*.log
+
+# OS + editor files
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Ollama model cache (if inside folder)
+models/
