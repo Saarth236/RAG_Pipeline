@@ -25,3 +25,10 @@ __pycache__/
 
 # Ollama model cache (if inside folder)
 models/
+
+
+# Don't track any files in the docs/ folder
+docs/*
+!docs/.gitkeep   # keep the folder visible in Git
+
+
