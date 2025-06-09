@@ -21,7 +21,7 @@ A local, memory-aware Retrieval-Augmented Generation (RAG) pipeline that:
 
 # 1. Clone the repository
 
-```git clone https://github.com/Saarth236/RAG_Pipeline.git
+git clone https://github.com/Saarth236/RAG_Pipeline.git
 cd RAG_Pipeline
 
 # 2. Add Your Documents
@@ -42,6 +42,6 @@ ollama run deepseek:8b
 # And finally, run the code to ingest docs 
 python ingest_new_docs.py
 
-python chat_loop.py```
+python chat_loop.py
 
 
